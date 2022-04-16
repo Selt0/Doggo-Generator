@@ -20,9 +20,14 @@
 /******************************************
 /* BASE STYLES
 /*******************************************/
-
+html {
+     height: 100vh;
+}
 body {
-
+     font-size: 2rem;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     background: linear-gradient(lightyellow, orange);
+     text-align: center;
 }
 
 
@@ -30,7 +35,15 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
+     margin-top: 100px;
+     margin-bottom: 30px;
+}
 
+.container {
+     display: flex;
+     padding-left: 10vw;
+     padding-right: 10vw;
+     justify-content: space-around;
 }
 
 footer {
@@ -40,3 +53,23 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+select {
+     font-size: 1.1rem;
+}
+
+img {
+     max-width: 100%;
+     max-height: 100%;
+}
+
+.column:nth-child(2){
+     padding-left: 15px;
+}
+
+.column p {
+     margin: 15px 0;
+}
+
+.column ul li {
+     text-align: start;
+}
